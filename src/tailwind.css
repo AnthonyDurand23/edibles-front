@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {  
+  html {
+    @apply no-highlight; 
+  }
+
+  body {
+    @apply bg-custom-grey font-ediblesBody font-medium text-2xl text-custom-cream relative;
+  }
+
+  #root {
+    @apply relative flex flex-col min-h-screen;
+  }  
+
+  strong {
+    @apply text-custom-green-4 font-bold;
+  }
+
+  @font-face {
+    font-family: 'apaluregular';
+    src: url('assets/fonts/apalu-webfont.eot');
+    src: url('assets/fonts/apalu-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/apalu-webfont.woff2') format('woff2'),
+         url('assets/fonts/apalu-webfont.woff') format('woff'),
+         url('assets/fonts/apalu-webfont.ttf') format('truetype'),
+         url('assets/fonts/apalu-webfont.svg#apaluregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+}
+
+@layer components {
+  .toggle-checkbox:checked {
+    @apply right-0 border-custom-green-2;
+  }
+
+  .toggle-checkbox:checked + .toggle-label {
+    @apply bg-custom-green-2;
+  }
+
+  .toggle-checkbox, .toggle-label {
+    @apply duration-1000;
+  }
+}
+
+@layer utilities {
+  .no-highlight {
+    -webkit-tap-highlight-color: transparent;
+  }  
+
+  .text-clamp {
+    font-size: clamp(3.5rem, 9vh, 5.2rem);    
+  }
+
+  .icon-clamp-m {
+    font-size: clamp(3.2rem, 7.5vh, 5rem);
+  }
+
+  .icon-clamp-s {
+    font-size: clamp(1.8rem, 4vh, 5rem);
+  }
+
+  .icon-clamp-sm {
+    font-size: clamp(1.5rem, 4.5vh, 5rem);
+  }
+
+  .icon-clamp {
+    font-size: clamp(4.2rem, 7vh, 5.5rem);    
+  }
+
+  .text-shadow-l {
+    text-shadow: 0 0 2rem lightgrey;
+  }
+
+  .text-shadow-m {
+    text-shadow: 0 0 5px darkgrey;
+  }
+
+  .align-absolute {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .border-t-transparent {
+    border-top-color: transparent;
+  }
+
+  .border-r-transparent {
+    border-right-color: transparent;
+  }
+
+  .border-b-transparent {
+    border-bottom-color: transparent;
+  }
+
+  .border-l-transparent {
+    border-left-color: transparent;
+  }
+}

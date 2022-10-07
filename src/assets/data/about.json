@@ -1,0 +1,60 @@
+{
+  "devs":[
+    {
+      "firstname":"Antoine",
+      "lastname": "LEBREUIL",
+      "url_picture": "https://avatars.githubusercontent.com/u/82812404?v=4",
+      "roles": [
+        "Développeur Front",
+        "Lead Dev Front"
+      ],
+      "githubLink": "https://github.com/AntoineLebreuil",
+      "linkedinLink": ""
+    },
+    {
+      "firstname":"Anthony",
+      "lastname": "DURAND",
+      "url_picture": "https://avatars.githubusercontent.com/u/75164439?v=4",
+      "roles": [
+        "Développeur Back",
+        "Git Master"
+      ],
+      "githubLink": "https://github.com/AnthonyDurand23",
+      "linkedinLink": "https://www.linkedin.com/in/durandanthony/"
+    },
+    {
+      "firstname":"Jonathan",
+      "lastname": "CAZZARO",
+      "url_picture": "https://avatars.githubusercontent.com/u/82816710?v=4",
+      "roles": [
+        "Développeur Front",
+        "Product Owner"
+      ],
+      "githubLink": "https://github.com/JonathanCazzaro",
+      "linkedinLink": ""
+    },
+    {
+      "firstname":"Michael",
+      "lastname": "CADET",
+      "url_picture": "https://avatars.githubusercontent.com/u/73543816?v=4",
+      "roles": [
+        "Développeur Back",
+        "Lead Dev Back"
+      ],
+      "githubLink": "https://github.com/Frenchix",
+      "linkedinLink": "https://www.linkedin.com/in/michaelcadet/"
+    },
+    {
+      "firstname":"Henok",
+      "lastname": "ADEYAMA",
+      "url_picture": "https://media-exp1.licdn.com/dms/image/C4D03AQHu4OeOEgAhFw/profile-displayphoto-shrink_200_200/0/1629385769797?e=1639612800&v=beta&t=0CbSwqkWKOGVgZy__l8YrACjsc29g8PO-SDccGA4qFU",
+      "roles": [
+        "Développeur Back",
+        "Scrum Master"
+      ],
+      "githubLink": "https://github.com/henokAde",
+      "linkedinLink": "https://www.linkedin.com/in/henok-adeyama-424618167/"
+    }
+
+  ]
+}
